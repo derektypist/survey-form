@@ -25,7 +25,7 @@
         #survey-form {
             display: block;
             margin: auto;
-            max-width: 50%;
+            max-width: 70%;
             background-color: lightblue;
             font-family: "Roboto", Arial, Verdana, sans-serif;
             text-align: left;
@@ -44,11 +44,15 @@
     <main>
         <section>
             <form id="survey-form">
-                <label for="name-label" id="name-label">Name</label>
+                <!-- Set up Name Field -->
+                <label for="name" id="name-label">Name (required)</label>
                 <br>
-                <input type="text" id="name" placeholder="Enter name" name="name" required></input>
+                <input type="text" id="name" placeholder="Enter name" name="name" required />
                 <br>
                 
+                <!-- Set up Email Field -->
+                <label for="email" id="email-label">Email (required)</label>
+                <input type="email" id="email" placeholder="Enter email" name="email" required />
             </form>
         </section>
     </main>
