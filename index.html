@@ -5,8 +5,52 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Hotel Survey Form</title>
+    <!-- Load Style Sheets -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <style>
+        /* Title */
+        #title {
+            font-family: "Roboto", Arial, Verdana, sans-serif;
+            text-align: center;
+        }
+        
+        /* Description */
+        #description {
+            font-family: "Roboto", Arial, Verdana, sans-serif;
+            text-align: center;
+            color: green;
+        }
+        
+        /* Survey Form */
+        #survey-form {
+            display: block;
+            margin: auto;
+            max-width: 50%;
+            background-color: lightblue;
+            font-family: "Roboto", Arial, Verdana, sans-serif;
+            text-align: left;
+            padding: 10px;
+        }
+    </style>
 </head>
 <body>
+    <!-- Provide Title and Description -->
+    <header>
+        <h1 id="title">Hotel Survey Form</h1>
+        <p id="description">Thank you for taking the time to help us improve your hotel experience</p>
+    </header>
     
+    <!-- Provide Survey Form -->
+    <main>
+        <section>
+            <form id="survey-form">
+                <label for="name-label" id="name-label">Name</label>
+                <br>
+                <input type="text" id="name" placeholder="Enter name" name="name" required></input>
+                <br>
+                
+            </form>
+        </section>
+    </main>
 </body>
 </html>
