@@ -30,6 +30,31 @@
             font-family: "Roboto", Arial, Verdana, sans-serif;
             text-align: left;
             padding: 10px;
+            border: 1px solid black;
+        }
+        
+        #name-label {
+            color: purple;
+        }
+        
+        #email-label {
+            color: purple;
+        }
+        
+        #number-label {
+            color: purple;
+        }
+        
+        #name {
+            width: 100%;
+        }
+       
+        #email {
+            width: 100%;
+        }
+        
+        #number {
+            width: 100%;
         }
     </style>
 </head>
@@ -48,13 +73,13 @@
                 <label for="name" id="name-label">Name (required)</label>
                 <br>
                 <input type="text" id="name" placeholder="Enter name" name="name" required />
-                <br>
+                <p></p>
                 
                 <!-- Set up Email Field -->
                 <label for="email" id="email-label">Email (required)</label>
                 <br>
                 <input type="email" id="email" placeholder="Enter email" name="email" required />
-                <br>
+                <p></p>
                 
                 <!-- Set up Age (Number) Field -->
                 <label for="number" id="number-label">Age</label>
@@ -84,6 +109,7 @@
                     <option value="Conferences"></option>
                     <option value="Exhibitions"></option>
                     <option value="Fairs"></option>
+                    <option value="Parties (e.g. Birthday)"></option>
                     <option value="Sun Breaks"></option>
                     <option value="Weddings"></option>
                     <option value="Workshops"></option>
