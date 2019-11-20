@@ -49,13 +49,28 @@
             width: 100%;
         }
        
+        #name[placeholder] {
+            font-family: "Roboto", Arial, Verdana, sans-serif;
+        }
+        
         #email {
             width: 100%;
+        }
+        
+        #email[placeholder] {
+            font-family: "Roboto", Arial, Verdana, sans-serif;
         }
         
         #number {
             width: 100%;
         }
+        
+        #number[placeholder] {
+            font-family: "Roboto", Arial, Verdana, sans-serif;
+        }
+        
+
+        
     </style>
 </head>
 <body>
@@ -102,7 +117,7 @@
                 
                 <!-- Set up Dropdown List (Datalist) -->
                 <p>What type of event did you attend?</p>
-                <input list="dropdown" name="eventtypes">
+                <input list="dropdown" name="eventtypes" placeholder="Select Option">
                 <datalist id="dropdown">
                     <option value="Balls"></option>
                     <option value="City Breaks"></option>
@@ -127,8 +142,11 @@
                 <br>
                 <input type="checkbox" name="facility5" value="Toilets">Toilets
                 <br>
+                <input type="checkbox" name="facility6" value="Taxi Booking">Taxi Booking
+                <br>
                 
-                
+                <!-- Provide textarea -->
+                <textarea placeholder="Add a Comment"></textarea>
             </form>
         </section>
     </main>
