@@ -20,6 +20,8 @@ As a user, if I enter numbers less than the minimum or greater than the maximum,
 
 As a user, I would expect placeholder text for text based fields.
 
+A screentip is provided when the user hovers over the submit button.
+
 Information Architecture
 
 Experience - Excellent, Very Good, Good, Poor, Very Poor
@@ -29,4 +31,29 @@ Hotel Facilities - Gym, Car Park, Restaurant, Meeting Rooms, Toilets, Taxi Booki
 Organising Principle is Interests/Services
 
 [Wireframes](wireframes/survey-form-wireframes) are provided.
+
+## Features
+
+The survey form has form validation for name, email and number fields.
+
+## Technologies
+
+* HTML5
+* CSS3
+
+Other technologies include fonts.google.com for fonts such as Roboto.
+
+## Testing
+
+Resize the width of the browser window, to ensure that the form is responsive.  A screentip is provided when
+the user hovers over the submit button.
+
+If the name and/or email fields are blank an HTML5 Validation Error appears.
+
+If the email is not formatted correctly, an HTML5 Validation Error appears.
+
+If anything other than a number is entered in the number field, an HTML5 Validation Error appears.
+
+If the number is less than the minimum value or the number is greater than the maximum value, an
+HTML5 Validation Error appears.
 
