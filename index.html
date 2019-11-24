@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,19 +10,22 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
     <style>
         /* Title */
+
         #title {
             font-family: "Roboto", Arial, Verdana, sans-serif;
             text-align: center;
         }
-        
+
         /* Description */
+
         #description {
             font-family: "Roboto", Arial, Verdana, sans-serif;
             text-align: center;
             color: green;
         }
-        
+
         /* Survey Form */
+
         #survey-form {
             display: block;
             margin: auto;
@@ -32,45 +36,45 @@
             padding: 10px;
             border: 1px solid black;
         }
-        
+
         #name-label {
             color: purple;
         }
-        
+
         #email-label {
             color: purple;
         }
-        
+
         #number-label {
             color: purple;
         }
-        
+
         #name {
             width: 100%;
         }
-       
+
         #email {
             width: 100%;
         }
-        
+
         #number {
             width: 100%;
         }
-        
+
         input[placeholder] {
             font-family: "Roboto", Arial, Verdana, sans-serif;
         }
-        
+
         input[list] {
             width: 100%;
             font-family: "Roboto", Arial, Verdana, sans-serif;
         }
-        
-        
+
+
         textarea {
             width: 100%;
         }
-        
+
         textarea[placeholder] {
             font-family: "Roboto", Arial, Verdana, sans-serif;
         }
@@ -83,16 +87,16 @@
             font-family: "Roboto", Arial, Verdana, sans-serif;
             border: 1px solid black;
         }
-        
     </style>
 </head>
+
 <body>
     <!-- Provide Title and Description -->
     <header>
         <h1 id="title">Hotel Survey Form</h1>
         <p id="description">Thank you for taking the time to help us improve your hotel experience</p>
     </header>
-    
+
     <!-- Provide Survey Form -->
     <main>
         <section>
@@ -102,19 +106,19 @@
                 <br>
                 <input type="text" id="name" placeholder="Enter name" name="name" required />
                 <p></p>
-                
+
                 <!-- Set up Email Field -->
                 <label for="email" id="email-label">Email (required)</label>
                 <br>
                 <input type="email" id="email" placeholder="Enter email" name="email" required />
                 <p></p>
-                
+
                 <!-- Set up Age (Number) Field -->
                 <label for="number" id="number-label">Age</label>
                 <br>
                 <input type="number" id="number" placeholder="Enter age (years)" name="number" min="0" max="100">
                 <br>
-                
+
                 <!-- Set up Radio Buttons with Default set to Good -->
                 <p>How did you rate your hotel experience?</p>
                 <input type="radio" name="experience" value="excellent">Excellent
@@ -127,7 +131,7 @@
                 <br>
                 <input type="radio" name="experience" value="verypoor">Very Poor
                 <br>
-                
+
                 <!-- Set up Dropdown List (Datalist) -->
                 <p>What type of event did you attend?</p>
                 <input list="dropdown" name="eventtypes" placeholder="Select Option">
@@ -142,9 +146,9 @@
                     <option value="Weddings"></option>
                     <option value="Workshops"></option>
                 </datalist>
-                
+
                 <!-- Set up Check Boxes -->
-                <p>What hotel facilities did you use?  Check all that apply.</p>
+                <p>What hotel facilities did you use? Check all that apply.</p>
                 <input type="checkbox" name="facility1" value="Gym">Gym
                 <br>
                 <input type="checkbox" name="facility2" value="Car Park">Car Park
@@ -157,17 +161,19 @@
                 <br>
                 <input type="checkbox" name="facility6" value="Taxi Booking">Taxi Booking
                 <br>
-                
+
                 <!-- Provide Text Area -->
                 <p>Comments</p>
                 <textarea placeholder="Add a Comment.  You may include other hotel facilities." rows="4"></textarea>
-                
+
                 <!-- Provide Submit Button -->
                 <p>
-                    <button id="submit" title="Submit Inputs">Submit</button>
+                    <button id="submit" value="Submit" title="Submit Inputs">Submit</button>
                 </p>
             </form>
+
         </section>
     </main>
 </body>
+
 </html>
