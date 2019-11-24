@@ -71,11 +71,18 @@
             width: 100%;
         }
         
-        
         textarea[placeholder] {
             font-family: "Roboto", Arial, Verdana, sans-serif;
         }
 
+        #submit {
+            width: 100%;
+            display: block;
+            margin: auto;
+            background-color: lightgreen;
+            font-family: "Roboto", Arial, Verdana, sans-serif;
+            border: 1px solid black;
+        }
         
     </style>
 </head>
@@ -150,11 +157,15 @@
                 <br>
                 <input type="checkbox" name="facility6" value="Taxi Booking">Taxi Booking
                 <br>
-                <p>Comments</p>
                 
-                <!-- Provide textarea -->
+                <!-- Provide Text Area -->
+                <p>Comments</p>
                 <textarea placeholder="Add a Comment.  You may include other hotel facilities." rows="4"></textarea>
                 
+                <!-- Provide Submit Button -->
+                <p>
+                    <button id="submit" title="Submit Inputs">Submit</button>
+                </p>
             </form>
         </section>
     </main>
