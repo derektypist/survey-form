@@ -7,6 +7,8 @@ Welcome to the survey form.  The purpose of this project is to construct a surve
 The Survey Form is about a visit to a Hotel with Experiences, Event Types (e.g. Balls) and Facilities (e.g. Car Park).  If a user is
 just making enquiries, the event types and facilities can be left blank.
 
+### User Stories
+
 As a user, I would like to see a form with a name field, an email field, a number field, radio buttons, selection of
 options from a dropdown, checkboxes, textarea for additional comments and a submit button to submit all my inputs.
 
@@ -22,7 +24,7 @@ As a user, I would expect placeholder text for text based fields.
 
 A screentip is provided when the user hovers over the submit button.
 
-Information Architecture
+### Information Architecture
 
 Experience - Excellent, Very Good, Good, Poor, Very Poor
 Event Types - Balls, City Breaks, Conferences, Exhibitions, Fairs, Parties (e.g. Birthday), Sun Breaks, Weddings and Workshops
@@ -59,4 +61,17 @@ HTML5 Validation Error appears.
 
 ## Deployment
 
-The project is deployed on GitHub Pages 
+The project is deployed on [GitHub Pages](https://derektypist.github.io/survey-form/) using the Master Branch.
+
+Remote Setup use the command
+
+    git remote add origin https://github.com/derektypist/survey-form
+    
+Any changes use the git push command in the terminal window.
+
+## Credits
+
+### Content
+
+The contents in this project were written by me.
+
