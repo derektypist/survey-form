@@ -30,7 +30,7 @@ Hotel Facilities - Gym, Car Park, Restaurant, Meeting Rooms, Toilets, Taxi Booki
 
 Organising Principle is Interests/Services
 
-[Wireframes](wireframes/survey-form-wireframe) are provided.
+[Wireframes](wireframes/survey-form-wireframe.png) are provided.
 
 ## Features
 
