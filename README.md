@@ -57,3 +57,6 @@ If anything other than a number is entered in the number field, an HTML5 Validat
 If the number is less than the minimum value or the number is greater than the maximum value, an
 HTML5 Validation Error appears.
 
+## Deployment
+
+The project is deployed on GitHub Pages 
